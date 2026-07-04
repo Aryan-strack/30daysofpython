@@ -82,7 +82,7 @@ print(fruits)
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.insert(2, 'watermelon')  # inserting 'watermelon' at index 2
 print(fruits)  # ['banana', 'orange', 'watermelon', 'mango', 'lemon']
-fruits.list(3, 'kiwi')  # inserting 'kiwi' at index 3
+fruits.insert(3, 'kiwi') 
 print(fruits)
 
 
@@ -93,8 +93,8 @@ print(fruits)  # ['orange', 'mango', 'lemon']
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.pop()  # remove the last item in the list
 
-fruits.remove(0)
-print(fruits)  # ['banana', 'mango']
+fruits.remove('banana')
+print(fruits)  # ['orange', 'mango']
 
 
 fruits = ['banana', 'orange', 'mango', 'lemon']
@@ -103,7 +103,8 @@ print(fruits)       # ['orange', 'mango', 'lemon']
 
 del fruits[1]
 print(fruits)       # ['orange', 'lemon']
-del fruits
+del fruits[0]
+
 print(fruits)
 
 
