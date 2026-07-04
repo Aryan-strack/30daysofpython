@@ -60,7 +60,7 @@ fruits[0] = 'avocado'  # changing the first item
 print(fruits)  # ['avocado', 'orange', 'mango', 'lemon']
 fruits[1] = 'apple'  # changing the second item
 print(fruits)  # ['avocado', 'apple', 'mango', 'lemon']
-last_index = len(fruits)
+last_index = len(fruits) - 1
 fruits[last_index] = 'pineapple'  # changing the last item
 
 fruits = ['banana', 'orange', 'mango', 'lemon']
